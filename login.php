@@ -1,26 +1,8 @@
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http: //www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<?php include "meta.php"?> 
-<title>gethostel.com </title>
-
-</head>
-<body>
-
-<section class="form-section">
-    <div class="body-div">
-        <div class="body-in">
-
-          <div class="pic">
-            <!-- <img src="all-images/images/me.jpg" alt="background image"> -->
-          </div>
-
-        <div class="form-div">
+<div class="form-div">
             <div class="con-div">
                 <div class="inner">
 
-                   <?php //include "logo.php"?>
+                   <?php include "logo.php"?>
 
                     <div class="txt">
                         <h2>Login to Gethostel</h2>
@@ -54,13 +36,3 @@
           </div>
 
         </div>
-        </div>
-    </div>
-</section>
-
-          
-
-
-  
-</body>
-</html>

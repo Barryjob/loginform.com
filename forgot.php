@@ -11,19 +11,24 @@
 <section class="form-section">
     <div class="body-div">
         <div class="body-in">
+          <div class="head"></div>
 
           <div class="pic">
-            <!-- <img src="all-images/images/me.jpg" alt="background image"> -->
+            <img src="all-images/images/me.jpg" alt="background image">
           </div>
 
         <div class="form-div">
             <div class="con-div">
                 <div class="inner">
 
-                   <?php //include "logo.php"?>
+                   <?php include "logo.php"?>
 
                     <div class="txt">
-                        <h2>Login to Gethostel</h2>
+                        <h2>Reset Password</h2>
+                    </div>
+
+                    <div class="remember-forgot resend">
+                            <p>Provide your <span>Email Address</span> to reset your password</p>
                     </div>
 
                     <div class="input-div">
@@ -32,23 +37,22 @@
                             <label for="text" class="username">Username</label>
                             <input type="text" class="username" placeholder="Your email@gmail.com">
 
-                            <label for="text" class="username">Password</label>
-                            <input type="password" class="password" placeholder="Your Password">
                         </form>
-                        <div class="remember-forgot">
-                            <div class="remember">
-                                <i class="bi bi-check"></i>
-                                <p>Remember me</p>
-                            </div>
-                            <a href="forgot.php">
-                               <button>Forgot Password</button>
-                            </a>
-                        </div>
+                        
                     </div>
                   
                     <div class="btn">
-                       <button>Login</button>
+                       <button>Proceed</button>
                     </div>
+
+                    <div class="remember-forgot reset">
+                            <p>Already have and account ?</p>
+                        
+                        <a href="forgot.php">
+                            <button>Login</button>
+                        </a>
+                    </div>
+
                 </div>
             </div>
           </div>
